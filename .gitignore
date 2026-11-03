@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Credentials
+/kaggle.json
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Medical uploads
+backend/uploads/
+
+# Local logs and training datasets
+backend/dev_emails.log
+backend/dataset/
+backend/raw_data/
+
+# Frontend
+node_modules/
+dist/
+.next/
+
+# TypeScript
+*.tsbuildinfo
+
+# System files
+.DS_Store
+Thumbs.db
